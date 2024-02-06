@@ -239,6 +239,43 @@ footer {
   align-items: center;
 }
 
+.link-external {
+  background-color: #12b3a9;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.table-template {
+  padding: 5px;
+  border: 1px solid black;
+  border-collapse: collapse
+}
+
+.table-template th, td {
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table-template tr {
+  border: 1px solid black;
+}
+
+.form-template {
+  background: rgb(174,204,239);
+  background: linear-gradient(90deg, rgba(174,204,239,1) 0%, rgba(230,240,253,1) 100%);
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 1000px) {
   .tappen-om {
     width: 100%;
