@@ -11,6 +11,10 @@ body {
   flex-direction: column;
 }
 
+img {
+  width: 100%;
+}
+
 .header {
   background: rgb(174,204,239);
   background: linear-gradient(90deg, rgba(174,204,239,1) 0%, rgba(230,240,253,1) 100%);
@@ -153,7 +157,7 @@ main {
 
 .rullar {
   grid-column: 2;
-  grid-row-start: 0;
+  grid-row-start: 1;
   grid-row-end: 3;
 }
 
@@ -292,11 +296,11 @@ footer {
   }
 
   .pizzeria-main div:nth-child(4n + 1) {
-    grid-column-end: 0;
+    grid-column-end: 1;
   }
 
   .pizzeria-main div:nth-child(2) {
-    grid-column: 0;
+    grid-column: 1;
   }
 
   .pizzeria-main {
